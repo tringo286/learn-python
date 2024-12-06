@@ -21,7 +21,7 @@ print(f'Price 2 is {princ2:.1f}') # -987.6
 print(f'Price 3 is {price3:.3f}') # 12.300
 
 print(f'Price 1 is {price1:10}')  #    3.141591 (10 spaces)
-print(f'Price 1 is {price1:010}') # 0003.14159 
+print(f'Price 1 is {price1:010}') #  003.141591 
 
 # Right justify
 print(f'Price 1 is {price1:>10}') # Price 1 is 3.141591
