@@ -6,7 +6,7 @@ class Shape:
         self.color = color
         self.is_filled = is_filled
 
-class Cirlce(Shape):
+class Circle(Shape):
     def __init__(self, color, is_filled, radius):
         super().__init__(color, is_filled)
         self.radius = radius
@@ -22,7 +22,7 @@ class Triangle(Shape):
         self.width = width
         self.height = height 
 
-circle = Cirlce('red', True, 5)
+circle = Circle('red', True, 5)
 print(circle.color) # red
 
 square = Square('red', False, 6)
